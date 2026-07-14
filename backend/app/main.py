@@ -5,14 +5,10 @@ from app.routers import resume
 
 app = FastAPI()
 
-# Allow React frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "https://ai-resume-analyzer-1-wfu9.onrender.com",
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
