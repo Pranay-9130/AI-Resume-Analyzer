@@ -7,7 +7,7 @@ An AI-powered Resume Analyzer that compares a candidate's resume with a job desc
 ## 🚀 Live Demo
 
 ### 🌐 Frontend
-https://YOUR-FRONTEND-URL.onrender.com
+https://ai-resume-analyzer-1-6d99.onrender.com
 
 ### ⚙️ Backend
 https://ai-resume-analyzer-ci2b.onrender.com
